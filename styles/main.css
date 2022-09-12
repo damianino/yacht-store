@@ -1,0 +1,232 @@
+:root{
+    --primarycolor: #191970;
+    --secondarycolor: #f0f9ff;
+    --bgcolor: #fbfbfb;
+}
+
+body, html{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-container{
+    height: 500px;
+    background-color: red;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-home{
+    min-width:100%;
+    object-fit: cover;
+    position: absolute;
+    
+}
+
+.fill-gradient{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0, 120, 145, 0.33) 0%, rgba(5, 5, 59, 0.66) 100%);
+    position: absolute;
+}
+
+.img-text{
+    position: absolute;
+}
+
+.true-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-tile{
+    position: relative;
+    background-color: var(--secondarycolor);
+    text-align: -webkit-left;
+}
+
+.item-tile>p{
+    margin-left: 2rem;
+    padding-bottom: .2rem;
+}
+
+.sale-widget-container{
+    max-width: 80%;
+}
+
+.sale-section, .reviews-section, .news-section, .webkit-center{
+    text-align: -webkit-center;
+}
+
+.bg-midnightblue{
+    background-color: midnightblue;
+}
+
+.nav-link > i{
+    color: white;
+}
+
+.sidebar{ 
+    flex: 0 0 auto;
+    width: 100px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+footer{
+    position: sticky;
+    z-index: 1;
+}
+
+.arrow-container{
+    display: inline-block;
+    border: 1px solid #ced4da;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 4rem;
+    justify-content: center;
+    width: 4rem;
+}
+
+.review-container{
+    display: inline-block;
+    text-align: left;
+}
+
+.thumbnail{
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 4rem;
+    justify-content: center;
+    width: 4rem!important;
+}
+
+.review-header{
+    background-color: var(--secondarycolor);
+    text-align: left;
+}
+
+.reviewer-name{
+    margin-bottom: 0;
+    font-size: large;
+    font-weight: 500;
+}
+
+.reviewer-city{
+    color: gray;
+    margin-bottom: 0!important;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.reviewer-name-container{
+    max-width: fit-content!important;
+}
+
+.selected{
+    background-color: var(--primarycolor);
+    color: white;
+}
+
+select{
+    border-radius: 1rem;
+    background-color: var(--secondarycolor);
+    border: none;
+    padding: .2rem;
+}
+
+.submit, .button{
+    background-color: #4BB543;
+}
+
+.unselected:hover{
+    background-color: var(--primarycolor);
+    color: white;
+}
+
+.item-image{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+
+}
+
+.description{
+  text-indent: 50px;
+  text-align: justify;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 0 2rem 2rem 1rem;
+  background-color: #eaeaea;
+}
+
+.params{  
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 0 2rem 2rem 0rem;
+}
+
+.params > li{
+  background-color: #eaeaea;
+
+}
+
+.contact-seller{
+    margin-right: 3rem;
+    margin-top: 1rem;
+    color:white;
+    background-color: #4BB543;
+    cursor: pointer;
+}
+
+.clickable-cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.news-cover{
+    height: 500px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.modal-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.342);
+    z-index:1;
+}
+
+.offer-modal{
+    position:relative;
+    margin: auto;
+    padding: 2rem 3rem;
+    transition: transform 200ms ease-in-out;
+}
+
+.footer{
+    z-index: 0;
+}

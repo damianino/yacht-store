@@ -1,0 +1,89 @@
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightblue; 
+  }
+  
+
+.login-form{
+    background-color: lightsteelblue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30%;
+  height: auto;
+  margin-left: -15%;
+  /* -1/2 width */
+  margin-top: -10%;
+  /* -1/2 height */
+  padding: 2rem 3rem;
+}
+
+.admin-panel{
+    height: 100%;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+.table-select{
+    float:left;
+    width:100px;
+    height: 100%;
+}
+
+.operations{
+    margin-left: 100px;
+    height: 7%;
+    background-color: lightsteelblue;
+}
+
+.data{
+    overflow:scroll;
+    margin-left: 100px;
+    height: 93%;
+    background-color: lightsteelblue;
+}
+
+.webkit-center{
+    text-align: -webkit-center;
+}
+
+.table-header, .select-col{
+    background: rgb(178, 225, 255);
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 12px;
+}
+
+.select-col{
+    padding: 0.5rem;
+}
+
+td, th {
+    border-right: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+.table-data{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid rgb(0, 61, 153);
+}
+input[type='checkbox']:checked {
+    background: rgb(0, 162, 255);
+}
+
